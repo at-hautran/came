@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/at-hautran/spree_came_extends.git
-  revision: 19fff81f9e4a78042a648e657caabe3a6cc2dd67
+  revision: b1f694fbb2c657bf67a75c93753beabc0fae07a5
   branch: test_change
   specs:
     spree_came_extends (0.0.1.alpha)
