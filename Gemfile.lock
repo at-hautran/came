@@ -1,13 +1,4 @@
 GIT
-  remote: https://github.com/at-hautran/spree_came_extends.git
-  revision: b1f694fbb2c657bf67a75c93753beabc0fae07a5
-  branch: test_change
-  specs:
-    spree_came_extends (0.0.1.alpha)
-      spree_core (>= 3.1.0, < 4.0)
-      spree_extension
-
-GIT
   remote: https://github.com/spree-contrib/spree_i18n.git
   revision: 7fae94795be954bd3f33b696ba108cc4ef146290
   branch: master
@@ -405,7 +396,6 @@ DEPENDENCIES
   selenium-webdriver
   spree (~> 3.3)
   spree_auth_devise (~> 3.3)
-  spree_came_extends!
   spree_gateway (~> 3.3)
   spree_i18n!
   spring
