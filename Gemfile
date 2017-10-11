@@ -38,7 +38,7 @@ gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
-# gem 'spree_came_extends', :github => 'at-hautran/spree_came_extends', :branch => 'test_change'
+gem 'spree_came_extends', :github => 'at-hautran/spree_came_extends', :branch => 'master'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,7 +47,6 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   # gem 'spree_came_extends', path: '../spree_came_extends'
-  # gem 'spree_came_extends', :github => 'at-hautran/spree_came_extends', :branch => 'test_change'
 end
 
 group :development do
@@ -60,11 +59,9 @@ group :development do
 end
 
 group :production do
-  # gem 'spree_came_extends', :github => 'at-hautran/spree_came_extends', :branch => 'test_change'
 end
 
 group :staging do
-  # gem 'spree_came_extends', :github => 'at-hautran/spree_came_extends', :branch => 'test_change'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
