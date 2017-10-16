@@ -41,6 +41,7 @@ gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
 gem 'spree_came_extends', :github => 'at-hautran/spree_came_extends', :branch => 'master'
 
 group :development, :test do
+  gem 'pry'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
