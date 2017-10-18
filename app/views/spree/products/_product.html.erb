@@ -24,15 +24,15 @@
   </div>
 <% end %>
 
-<div class="grid_1_of_4 images_1_of_4">
+<div class="grid_1_of_4 images_1_of_4", style="width: 23.7%">
   <!-- <a href="preview.html"> -->
   <%= link_to url, itemprop: "url" do %>
     <%= small_image(product, itemprop: "image") %><br/>
   <% end %>
     <!-- <img src="images/feature-pic1.jpg" alt="" /> -->
   </a>
-  <h2>
-    <%= product.name %>
+  <h2 style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden; " >
+    <%= product.name.first(10) %>
   </h2>
   <div class="price-details">
     <div class="price-number">
